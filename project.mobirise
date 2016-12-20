@@ -8,7 +8,7 @@
       "styling": {}
     },
     "versionFirst": "3.10.3",
-    "uniqCompNum": 45,
+    "uniqCompNum": 65,
     "versionPublish": "3.10.3"
   },
   "pages": {
@@ -19,7 +19,8 @@
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "order": 1
       },
       "components": [
         {
@@ -28,16 +29,56 @@
               "font-size": "16px"
             },
             "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#b8312f"
+              "background": "#d22d2a"
             },
             ".mbr-navbar__section": {
-              "background": "#b8312f"
+              "background": "#d22d2a"
             },
             ".mbr-navbar__hamburger": {
-              "color": "#9365b8"
+              "color": "#ffffff"
             },
             ".mbr-navbar__items a": {
               "font-size": "15px"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
             }
           },
           "_tags": [
@@ -46,10 +87,10 @@
           "_name": "menu",
           "_anchor": "menu-0",
           "_params": {
-            "color": "#b8312f",
-            "hamburgerColor": "#9365b8",
+            "color": "#d22d2a",
+            "hamburgerColor": "#ffffff",
             "transparent": false,
-            "sticky": true,
+            "sticky": false,
             "collapsed": false,
             "logo": false,
             "showBrand": false,
@@ -71,7 +112,7 @@
             }
           },
           "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"nederlands.html\">NEDERLANDS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"english.html\">ENGLISH</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"francais.html\">FRANCAIS</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"hansvanweeren.html\">HANS VAN WEEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\"></a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"mailto:hans@vanweeren.com\" target=\"_blank\">CONTACT/MAIL</a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"nederlands.html\">NEDERLANDS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"english.html\">ENGLISH</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"francais.html\">FRANCAIS</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"hansvanweeren.html\">HANS VAN WEEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\"></a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"mailto:hans@vanweeren.com\" target=\"_blank\">CONTACT/MAIL</a></li>",
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>"
         },
         {
@@ -125,7 +166,8 @@
     "nederlands.html": {
       "settings": {
         "title": "nederlands",
-        "meta_descr": ""
+        "meta_descr": "",
+        "order": 2
       },
       "components": [
         {
@@ -194,7 +236,7 @@
             "color": "#b8312f",
             "hamburgerColor": "#ffffff",
             "transparent": false,
-            "sticky": true,
+            "sticky": false,
             "collapsed": false,
             "logo": false,
             "showBrand": false,
@@ -223,7 +265,8 @@
     },
     "paintings.html": {
       "settings": {
-        "title": "paintings"
+        "title": "paintings",
+        "order": 5
       },
       "components": [
         {
@@ -232,10 +275,10 @@
               "font-size": "16px"
             },
             "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#b8312f"
+              "background": "#d22d2a"
             },
             ".mbr-navbar__section": {
-              "background": "#b8312f"
+              "background": "#d22d2a"
             },
             ".mbr-navbar__hamburger": {
               "color": "#9365b8"
@@ -250,10 +293,10 @@
           "_name": "menu",
           "_anchor": "menu-5",
           "_params": {
-            "color": "#b8312f",
+            "color": "#d22d2a",
             "hamburgerColor": "#9365b8",
             "transparent": false,
-            "sticky": true,
+            "sticky": false,
             "collapsed": false,
             "logo": false,
             "showBrand": false,
@@ -275,7 +318,7 @@
             }
           },
           "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"nederlands.html\">NEDERLANDS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"english.html\">ENGLISH</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"francais.html\">FRANCAIS</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"hansvanweeren.html\">HANS VAN WEEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\"></a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"mailto:hans@vanweeren.com\" target=\"_blank\">CONTACT/MAIL</a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"nederlands.html\">NEDERLANDS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"english.html\">ENGLISH</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"francais.html\">FRANCAIS</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"hansvanweeren.html\">HANS VAN WEEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\"></a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"mailto:hans@vanweeren.com\" target=\"_blank\">CONTACT/MAIL</a></li>",
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>"
         },
         {
@@ -285,7 +328,7 @@
           "_name": "gallery1",
           "_params": {
             "paddingTop": "3",
-            "paddingBottom": 3,
+            "paddingBottom": "4",
             "images": [
               {
                 "caption": "Type caption here",
@@ -515,13 +558,14 @@
           },
           "title": "",
           "text": "",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-warning\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">GO TO TOP</a>"
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-warning\" href=\"#top\" data-toolbar=\"-mbrBtnMove\">GO TO TOP</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-warning\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">HOME</a>"
         }
       ]
     },
     "silkscreen.html": {
       "settings": {
-        "title": "silkscreen"
+        "title": "silkscreen",
+        "order": 6
       },
       "components": [
         {
@@ -536,7 +580,7 @@
               "background": "#b8312f"
             },
             ".mbr-navbar__hamburger": {
-              "color": "#9365b8"
+              "color": "#ffffff"
             },
             ".mbr-navbar__items a": {
               "font-size": "15px"
@@ -549,9 +593,9 @@
           "_anchor": "menu-a",
           "_params": {
             "color": "#b8312f",
-            "hamburgerColor": "#9365b8",
+            "hamburgerColor": "#ffffff",
             "transparent": false,
-            "sticky": true,
+            "sticky": false,
             "collapsed": false,
             "logo": false,
             "showBrand": false,
@@ -577,75 +621,183 @@
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>"
         },
         {
-          "_inherit": "gallery1",
           "_tags": [
             "Theme"
           ],
-          "_name": "gallery2",
+          "_name": "gallery1",
           "_params": {
+            "paddingTop": "3",
+            "paddingBottom": 3,
             "images": [
               {
                 "caption": "Type caption here",
-                "thumb": "@PROJECT_PATH@/assets/images/gmj-2000x2414-36-800x965-35.jpg",
-                "image": "@PROJECT_PATH@/assets/images/gmj-2000x2414-36.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/jazz-2000x1891-75-800x756-40.jpg",
+                "image": "@PROJECT_PATH@/assets/images/jazz-2000x1891-75.jpg",
                 "active": false
               },
               {
                 "caption": "Type caption here",
-                "thumb": "@PROJECT_PATH@/assets/images/jazz-2000x1891-55-800x756-52.jpg",
-                "image": "@PROJECT_PATH@/assets/images/jazz-2000x1891-55.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/walking-2000x2754-25-800x1101-97.jpg",
+                "image": "@PROJECT_PATH@/assets/images/walking-2000x2754-25.jpg",
                 "active": false
               },
               {
                 "caption": "Type caption here",
-                "thumb": "@PROJECT_PATH@/assets/images/playing-the-piano-2000x1299-5-800x519-33.jpg",
-                "image": "@PROJECT_PATH@/assets/images/playing-the-piano-2000x1299-5.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/playing-the-piano-2000x1299-15-800x519-22.jpg",
+                "image": "@PROJECT_PATH@/assets/images/playing-the-piano-2000x1299-15.jpg",
                 "active": false
               },
               {
                 "caption": "Type caption here",
-                "thumb": "@PROJECT_PATH@/assets/images/music-2000x1501-30-800x600-48.jpg",
-                "image": "@PROJECT_PATH@/assets/images/music-2000x1501-30.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sweet-lady-2000x2647-23-800x1058-24.jpg",
+                "image": "@PROJECT_PATH@/assets/images/sweet-lady-2000x2647-23.jpg",
                 "active": false
               },
               {
                 "caption": "Type caption here",
-                "thumb": "@PROJECT_PATH@/assets/images/vaches-2000x1363-30-800x545-18.jpg",
-                "image": "@PROJECT_PATH@/assets/images/vaches-2000x1363-30.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/inspiration-2000x1454-30-800x581-67.jpg",
+                "image": "@PROJECT_PATH@/assets/images/inspiration-2000x1454-30.jpg",
                 "active": false
               },
               {
                 "caption": "Type caption here",
-                "thumb": "@PROJECT_PATH@/assets/images/samurai-2-2000x2000-49-800x800-10.jpg",
-                "image": "@PROJECT_PATH@/assets/images/samurai-2-2000x2000-49.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/samurai-2-2000x2000-83-800x800-82.jpg",
+                "image": "@PROJECT_PATH@/assets/images/samurai-2-2000x2000-83.jpg",
                 "active": false
               },
               {
                 "caption": "Type caption here",
-                "thumb": "@PROJECT_PATH@/assets/images/inspiration-2000x1451-51-800x580-50.jpg",
-                "image": "@PROJECT_PATH@/assets/images/inspiration-2000x1451-51.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/music-2000x2362-2-800x944-63.jpg",
+                "image": "@PROJECT_PATH@/assets/images/music-2000x2362-2.jpg",
                 "active": false
               },
               {
                 "caption": "Type caption here",
-                "thumb": "@PROJECT_PATH@/assets/images/sweet-lady-2000x2650-55-800x1060-66.jpg",
-                "image": "@PROJECT_PATH@/assets/images/sweet-lady-2000x2650-55.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/vaches-2000x1363-43-800x545-76.jpg",
+                "image": "@PROJECT_PATH@/assets/images/vaches-2000x1363-43.jpg",
                 "active": true
               }
             ],
             "showText": false,
+            "bgColor": "#ffffff",
             "fullWidth": true,
-            "noGutter": false,
-            "showBullets": false
+            "noGutter": true,
+            "showBullets": true
           },
-          "_anchor": "gallery2-b",
-          "articleLayout": true
+          "_anchor": "gallery1-1q",
+          "articleLayout": false
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": 3,
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/gmj-2000x2414-14-800x965-19.jpg",
+                "image": "@PROJECT_PATH@/assets/images/gmj-2000x2414-14.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/ilona-in-spain-2000x2088-66-800x835-28.jpg",
+                "image": "@PROJECT_PATH@/assets/images/ilona-in-spain-2000x2088-66.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/julie-gayet-2000x2752-25-800x1100-22.jpg",
+                "image": "@PROJECT_PATH@/assets/images/julie-gayet-2000x2752-25.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/landscape-1-2000x1382-12-800x552-49.jpg",
+                "image": "@PROJECT_PATH@/assets/images/landscape-1-2000x1382-12.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/landscape-2-2000x1388-26-800x555-26.jpg",
+                "image": "@PROJECT_PATH@/assets/images/landscape-2-2000x1388-26.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/loveletters-1-2000x2818-98-800x1127-70.jpg",
+                "image": "@PROJECT_PATH@/assets/images/loveletters-1-2000x2818-98.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/music-2000x2362-2-800x944-634.jpg",
+                "image": "@PROJECT_PATH@/assets/images/music-2000x2362-25.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/silkscreen-2-2000x2366-70-800x946-82.jpg",
+                "image": "@PROJECT_PATH@/assets/images/silkscreen-2-2000x2366-70.jpg",
+                "active": true
+              }
+            ],
+            "showText": false,
+            "bgColor": "#ffffff",
+            "fullWidth": true,
+            "noGutter": true,
+            "showBullets": true
+          },
+          "_anchor": "gallery1-1p",
+          "articleLayout": false
+        },
+        {
+          "_inherit": "msg-box1",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#252525"
+            },
+            ".mbr-article": {
+              "color": "#252525"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-1c",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#b8312f",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": false,
+            "showText": false,
+            "showButtons": true
+          },
+          "title": "",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-warning\" href=\"#top\" data-toolbar=\"-mbrBtnMove\">GO TO TOP</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-warning\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">HOME</a>"
         }
       ]
     },
     "batik.html": {
       "settings": {
-        "title": "batik"
+        "title": "batik",
+        "order": 7
       },
       "components": [
         {
@@ -672,7 +824,7 @@
             "color": "#b8312f",
             "hamburgerColor": "#ffffff",
             "transparent": false,
-            "sticky": true,
+            "sticky": false,
             "collapsed": false,
             "logo": false,
             "showBrand": false,
@@ -763,13 +915,52 @@
           },
           "_anchor": "gallery1-16",
           "articleLayout": false
+        },
+        {
+          "_inherit": "msg-box1",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#252525"
+            },
+            ".mbr-article": {
+              "color": "#252525"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-1d",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#b8312f",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": false,
+            "showText": false,
+            "showButtons": true
+          },
+          "title": "",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-warning\" href=\"#top\" data-toolbar=\"-mbrBtnMove\">GO TO TOP</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-warning\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">HOME</a>"
         }
       ]
     },
     "francais.html": {
       "settings": {
         "title": "francais",
-        "meta_descr": ""
+        "meta_descr": "",
+        "order": 4
       },
       "components": [
         {
@@ -838,7 +1029,7 @@
             "color": "#b8312f",
             "hamburgerColor": "#ffffff",
             "transparent": false,
-            "sticky": true,
+            "sticky": false,
             "collapsed": false,
             "logo": false,
             "showBrand": false,
@@ -868,7 +1059,8 @@
     "english.html": {
       "settings": {
         "title": "english",
-        "meta_descr": ""
+        "meta_descr": "",
+        "order": 3
       },
       "components": [
         {
@@ -937,7 +1129,7 @@
             "color": "#b8312f",
             "hamburgerColor": "#ffffff",
             "transparent": false,
-            "sticky": true,
+            "sticky": false,
             "collapsed": false,
             "logo": false,
             "showBrand": false,
@@ -966,7 +1158,8 @@
     },
     "hansvanweeren.html": {
       "settings": {
-        "title": "hans van weeren "
+        "title": "hans van weeren ",
+        "order": 8
       },
       "components": [
         {
@@ -993,7 +1186,7 @@
             "color": "#b8312f",
             "hamburgerColor": "#ffffff",
             "transparent": false,
-            "sticky": true,
+            "sticky": false,
             "collapsed": false,
             "logo": false,
             "showBrand": false,
