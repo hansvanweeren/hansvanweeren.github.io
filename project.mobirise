@@ -1,14 +1,14 @@
 {
   "settings": {
     "name": "kunst",
-    "currentPage": "index.html",
+    "currentPage": "english.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
       "styling": {}
     },
     "versionFirst": "3.10.3",
-    "uniqCompNum": 65,
+    "uniqCompNum": 77,
     "versionPublish": "3.10.3"
   },
   "pages": {
@@ -29,56 +29,16 @@
               "font-size": "16px"
             },
             "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#d22d2a"
+              "background": "#fac51c"
             },
             ".mbr-navbar__section": {
-              "background": "#d22d2a"
+              "background": "#fac51c"
             },
             ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
+              "color": "#b8312f"
             },
             ".mbr-navbar__items a": {
               "font-size": "15px"
-            },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
-            },
-            ".link, .dropdown-item": {
-              "color": "#ffffff"
-            },
-            ".link": {
-              "font-size": "0.75rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.812rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#ffffff",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
             }
           },
           "_tags": [
@@ -87,8 +47,8 @@
           "_name": "menu",
           "_anchor": "menu-0",
           "_params": {
-            "color": "#d22d2a",
-            "hamburgerColor": "#ffffff",
+            "color": "#fac51c",
+            "hamburgerColor": "#b8312f",
             "transparent": false,
             "sticky": false,
             "collapsed": false,
@@ -112,7 +72,7 @@
             }
           },
           "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"nederlands.html\">NEDERLANDS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"english.html\">ENGLISH</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"francais.html\">FRANCAIS</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"hansvanweeren.html\">HANS VAN WEEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\"></a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"mailto:hans@vanweeren.com\" target=\"_blank\">CONTACT/MAIL</a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"nederlands.html\">NEDERLANDS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"english.html\">ENGLISH</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"francais.html\">FRANCAIS</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"hansvanweeren.html\">HANS VAN WEEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\"></a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"mailto:hans@vanweeren.com\" target=\"_blank\">CONTACT/MAIL</a></li>",
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>"
         },
         {
@@ -210,7 +170,7 @@
           ],
           "_name": "buttons1",
           "_anchor": "buttons1-u",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"paintings.html\" data-toolbar=\"-mbrBtnMove\">schilderijen</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"silkscreen.html\" data-toolbar=\"-mbrBtnMove\">zeefdrukken</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"batik.html\" data-toolbar=\"-mbrBtnMove\">batiks</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"paintings.html\" data-toolbar=\"-mbrBtnMove\">paintings</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"silkscreen.html\" data-toolbar=\"-mbrBtnMove\">silkscreen</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"batik.html\" data-toolbar=\"-mbrBtnMove\">batiks</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"drawings.html\" data-toolbar=\"-mbrBtnMove\">drawings</a>"
         },
         {
           "_styles": {
@@ -275,10 +235,10 @@
               "font-size": "16px"
             },
             "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#d22d2a"
+              "background": "#b8312f"
             },
             ".mbr-navbar__section": {
-              "background": "#d22d2a"
+              "background": "#b8312f"
             },
             ".mbr-navbar__hamburger": {
               "color": "#9365b8"
@@ -293,7 +253,7 @@
           "_name": "menu",
           "_anchor": "menu-5",
           "_params": {
-            "color": "#d22d2a",
+            "color": "#b8312f",
             "hamburgerColor": "#9365b8",
             "transparent": false,
             "sticky": false,
@@ -318,7 +278,7 @@
             }
           },
           "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"nederlands.html\">NEDERLANDS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"english.html\">ENGLISH</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"francais.html\">FRANCAIS</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"hansvanweeren.html\">HANS VAN WEEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\"></a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"mailto:hans@vanweeren.com\" target=\"_blank\">CONTACT/MAIL</a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"nederlands.html\">NEDERLANDS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"english.html\">ENGLISH</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"francais.html\">FRANCAIS</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"hansvanweeren.html\">HANS VAN WEEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\"></a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"mailto:hans@vanweeren.com\" target=\"_blank\">CONTACT/MAIL</a></li>",
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>"
         },
         {
@@ -328,7 +288,7 @@
           "_name": "gallery1",
           "_params": {
             "paddingTop": "3",
-            "paddingBottom": "4",
+            "paddingBottom": 3,
             "images": [
               {
                 "caption": "Type caption here",
@@ -580,7 +540,7 @@
               "background": "#b8312f"
             },
             ".mbr-navbar__hamburger": {
-              "color": "#ffffff"
+              "color": "#9365b8"
             },
             ".mbr-navbar__items a": {
               "font-size": "15px"
@@ -593,7 +553,7 @@
           "_anchor": "menu-a",
           "_params": {
             "color": "#b8312f",
-            "hamburgerColor": "#ffffff",
+            "hamburgerColor": "#9365b8",
             "transparent": false,
             "sticky": false,
             "collapsed": false,
@@ -681,7 +641,7 @@
             "showText": false,
             "bgColor": "#ffffff",
             "fullWidth": true,
-            "noGutter": true,
+            "noGutter": false,
             "showBullets": true
           },
           "_anchor": "gallery1-1q",
@@ -748,7 +708,7 @@
             "showText": false,
             "bgColor": "#ffffff",
             "fullWidth": true,
-            "noGutter": true,
+            "noGutter": false,
             "showBullets": true
           },
           "_anchor": "gallery1-1p",
@@ -998,14 +958,6 @@
           "text": "Hans van Weeren est une artiste Neerlandais travaillant dans le monde entier. Il a ses ateliers aux Pays Bas, en France et en Indonesie. En plus il travaille souvent comme artiste-en-residence en Chine, les Etats-Unis ou Italie.<br><br>cliquez sur le buttons pour voir l'oeuvre"
         },
         {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "buttons1",
-          "_anchor": "buttons1-10",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"paintings.html\" data-toolbar=\"-mbrBtnMove\">tableaux</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"silkscreen.html\" data-toolbar=\"-mbrBtnMove\">serigraphie</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"batik.html\" data-toolbar=\"-mbrBtnMove\">batik</a>"
-        },
-        {
           "_styles": {
             ".mbr-brand__name": {
               "font-size": "16px"
@@ -1053,6 +1005,14 @@
           "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
           "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"nederlands.html\">NEDERLANDS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"english.html\">ENGLISH</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"francais.html\">FRANCAIS</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"hansvanweeren.html\">HANS VAN WEEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\"></a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"mailto:hans@vanweeren.com\" target=\"_blank\">CONTACT/MAIL</a></li>",
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "buttons1",
+          "_anchor": "buttons1-24",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"paintings.html\" data-toolbar=\"-mbrBtnMove\">paintings</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"silkscreen.html\" data-toolbar=\"-mbrBtnMove\">silkscreen</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"batik.html\" data-toolbar=\"-mbrBtnMove\">batiks</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"drawings.html\" data-toolbar=\"-mbrBtnMove\">drawings</a>"
         }
       ]
     },
@@ -1102,8 +1062,8 @@
             "Theme"
           ],
           "_name": "buttons1",
-          "_anchor": "buttons1-x",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"paintings.html\" data-toolbar=\"-mbrBtnMove\">paintings</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"silkscreen.html\" data-toolbar=\"-mbrBtnMove\">zeefdrukken</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"batik.html\" data-toolbar=\"-mbrBtnMove\">batik</a>"
+          "_anchor": "buttons1-1z",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"paintings.html\" data-toolbar=\"-mbrBtnMove\">paintings</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"silkscreen.html\" data-toolbar=\"-mbrBtnMove\">silkscreen</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"batik.html\" data-toolbar=\"-mbrBtnMove\">batiks</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"drawings.html\" data-toolbar=\"-mbrBtnMove\">drawings</a>"
         },
         {
           "_styles": {
@@ -1307,6 +1267,211 @@
           "text1": "",
           "text2": "<strong>CONTACTS</strong><br>\nEmail: hans@vanweeren.com<br>Netherlands:&nbsp;<br>Phone: +31 (0)613701616<br>France:<br>Phone: +33 (0)780581550<br>",
           "text3": "<ul class=\"mbr-contacts__list\"></ul>"
+        }
+      ]
+    },
+    "drawings.html": {
+      "settings": {},
+      "components": [
+        {
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#b8312f"
+            },
+            ".mbr-navbar__section": {
+              "background": "#b8312f"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-1u",
+          "_params": {
+            "color": "#b8312f",
+            "hamburgerColor": "#ffffff",
+            "transparent": false,
+            "sticky": false,
+            "collapsed": false,
+            "logo": false,
+            "showBrand": false,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "images/logo.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html\">HOME</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"nederlands.html\">NEDERLANDS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"english.html\">ENGLISH</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"francais.html\">FRANCAIS</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"hansvanweeren.html\">HANS VAN WEEREN</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\"></a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-black\" data-app-selector=\".mbr-navbar__items a\" href=\"mailto:hans@vanweeren.com\" target=\"_blank\">CONTACT/MAIL</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": 3,
+            "images": [
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/angelboy-2000x1360-9-800x544-34.jpg",
+                "image": "@PROJECT_PATH@/assets/images/angelboy-2000x1360-9.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/balinese-2000x3219-60-800x1287-90.jpg",
+                "image": "@PROJECT_PATH@/assets/images/balinese-2000x3219-60.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/crying-out-2000x4941-97-800x1976-83.jpg",
+                "image": "@PROJECT_PATH@/assets/images/crying-out-2000x4941-97.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/dali-girls-2000x1835-90-800x734-88.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dali-girls-2000x1835-90.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/car-accident-2000x1190-52-800x476-50.jpg",
+                "image": "@PROJECT_PATH@/assets/images/car-accident-2000x1190-52.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/coward-2000x1190-95-800x476-38.jpg",
+                "image": "@PROJECT_PATH@/assets/images/coward-2000x1190-95.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/carnaval-2000x1402-87-800x560-53.jpg",
+                "image": "@PROJECT_PATH@/assets/images/carnaval-2000x1402-87.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/fantasia-1-2000x1830-53-800x732-27.jpg",
+                "image": "@PROJECT_PATH@/assets/images/fantasia-1-2000x1830-53.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/fantasia-2-2000x1680-8-800x672-85.jpg",
+                "image": "@PROJECT_PATH@/assets/images/fantasia-2-2000x1680-8.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/fantasia-3-2000x1364-51-800x545-80.jpg",
+                "image": "@PROJECT_PATH@/assets/images/fantasia-3-2000x1364-51.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/fantasia-4-2000x1543-93-800x617-92.jpg",
+                "image": "@PROJECT_PATH@/assets/images/fantasia-4-2000x1543-93.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/fantasia-5-2000x1458-74-800x583-29.jpg",
+                "image": "@PROJECT_PATH@/assets/images/fantasia-5-2000x1458-74.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/formule-1-2000x1054-59-800x421-46.jpg",
+                "image": "@PROJECT_PATH@/assets/images/formule-1-2000x1054-59.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/hoi-an-market-1-2000x1623-62-800x649-1.jpg",
+                "image": "@PROJECT_PATH@/assets/images/hoi-an-market-1-2000x1623-62.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/hoi-an-market-2-2000x2485-31-800x994-81.jpg",
+                "image": "@PROJECT_PATH@/assets/images/hoi-an-market-2-2000x2485-31.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/hoi-an-market-5-2000x1576-67-800x630-86.jpg",
+                "image": "@PROJECT_PATH@/assets/images/hoi-an-market-5-2000x1576-67.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/in-uniform-2000x1472-79-800x588-24.jpg",
+                "image": "@PROJECT_PATH@/assets/images/in-uniform-2000x1472-79.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/marche-2000x922-47-800x368-58.jpg",
+                "image": "@PROJECT_PATH@/assets/images/marche-2000x922-47.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/painting-and-pottery-2000x1651-9-800x660-28.jpg",
+                "image": "@PROJECT_PATH@/assets/images/painting-and-pottery-2000x1651-9.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/sleeping-beauty-2000x1520-91-800x608-50.jpg",
+                "image": "@PROJECT_PATH@/assets/images/sleeping-beauty-2000x1520-91.jpg",
+                "active": false
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/tekening-4-2000x3148-8-800x1259-1.jpg",
+                "image": "@PROJECT_PATH@/assets/images/tekening-4-2000x3148-8.jpg",
+                "active": true
+              },
+              {
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/tekening-1-2000x3136-78-800x1254-58.jpg",
+                "image": "@PROJECT_PATH@/assets/images/tekening-1-2000x3136-78.jpg",
+                "active": false
+              }
+            ],
+            "showText": false,
+            "bgColor": "#ffffff",
+            "fullWidth": true,
+            "noGutter": false,
+            "showBullets": true
+          },
+          "_anchor": "gallery1-1v",
+          "articleLayout": false
         }
       ]
     }
