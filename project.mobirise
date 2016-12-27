@@ -1,14 +1,14 @@
 {
   "settings": {
     "name": "kunst",
-    "currentPage": "english.html",
+    "currentPage": "hansvanweeren.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
       "styling": {}
     },
     "versionFirst": "3.10.3",
-    "uniqCompNum": 77,
+    "uniqCompNum": 79,
     "versionPublish": "3.10.3"
   },
   "pages": {
@@ -1172,6 +1172,62 @@
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD</a></li>"
         },
         {
+          "_inherit": "msg-box3",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#fff"
+            },
+            ".mbr-article P": {
+              "font-size": "22px",
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            },
+            ".mbr-article UL": {
+              "text-align": "left",
+              "font-size": "22px"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-26",
+          "_params": {
+            "showCaption": true,
+            "paddingTop": "1",
+            "paddingBottom": "4",
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "bgImageRadio": true,
+            "parallax": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/wrecking-ball-2000x1494-61-2000x1494-4.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.2,
+            "overlayColor": "#28324e",
+            "showMeta": false,
+            "darkBackground": true
+          },
+          "title": "Hans van Weeren",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>Hans van Weeren is a traveller who likes to work everywhere. Painting can be done everywhere. When he is in China he paints chinese, when he is in Indonesia he paints indonesian. &nbsp;He likes to see and show the differences between us, the people from this world. Always with as less as possible shapes and colors. His paintings needs your eyes to become real. Because you will fill in the gaps with your own imagination. And that’s the way it should be. So be surprised!&nbsp;</p><p><span style=\"font-size: 17px;\"><b>Normally I live in Indonesia in wintertime and live in the south of France in summertime. And in between I’m in the Netherlands and will be traveling the world over. Visit the USA, Vietnam, China, Italy, Spain aso aso. &nbsp;So whenever you feel like buying some fine art, you can contact me here. But remember: I’m not always on the right spot to deliver your artwork. So when you order a painting that is stocked at my studio in France and I’m in China it can take some time before I can deliver. That’s just the way it is. So it is wise to mail me and ask me where on this earth I am. You’ll be surprised, maybe just right around the corner.</b></span></p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>"
+        },
+        {
           "_tags": [
             "Theme"
           ],
@@ -1472,6 +1528,44 @@
           },
           "_anchor": "gallery1-1v",
           "articleLayout": false
+        },
+        {
+          "_inherit": "msg-box1",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#252525"
+            },
+            ".mbr-article": {
+              "color": "#252525"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-25",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "#b8312f",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": false,
+            "showText": false,
+            "showButtons": true
+          },
+          "title": "",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-warning\" href=\"#top\" data-toolbar=\"-mbrBtnMove\">GO TO TOP</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-warning\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">HOME</a>"
         }
       ]
     }
